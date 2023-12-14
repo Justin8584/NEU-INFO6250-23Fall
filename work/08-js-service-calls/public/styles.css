@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.word__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.word__show {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.word__word {
+    /* margin-left: 10px; */
+
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.2rem;
+
+}
+
+button {
+    background: #0ABAB5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #099a9a;
+}
+
+.word__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.error {
+    color: #dc3545;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.word__view,
+.login__page {
+    text-align: center;
+}
+
+.word__input {
+    max-width: 300px;
+}
+
+.login__form-input {
+    max-width: 300px;
+}
+
+.logout-button {
+    background: #dc3545;
+    margin-bottom: 70px;
+}
+
+.logout-button:hover {
+    background: #c82333;
+}

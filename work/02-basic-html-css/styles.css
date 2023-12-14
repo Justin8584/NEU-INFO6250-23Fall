@@ -1,0 +1,16 @@
+.header {
+    background-color: palegreen;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    padding: 1rem;
+    background-color: cornsilk;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: aqua;
+}

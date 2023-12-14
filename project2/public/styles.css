@@ -1,0 +1,155 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.app {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Login Styles */
+.login {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.login-subtitle {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.login-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chat-header {
+    margin-bottom: 20px;
+}
+
+.chat-users,
+.chat-messages {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%;
+}
+
+.chat-messages-list,
+.chat-users-list {
+    list-style: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.timestamp {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.message-input {
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.chat-messages .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-messages button {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .chat {
+        flex-direction: column;
+    }
+
+    .chat-users,
+    .chat-messages {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.loading-indicator {
+    display: none;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body.is-loading .loading-indicator {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}

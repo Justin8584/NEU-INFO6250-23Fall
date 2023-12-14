@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.page-title,
+.page-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.page-subtitle {
+    font-size: 27px;
+    color: #34495e;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login__form,
+.guess__form,
+.newgame-form,
+.logout__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form-label,
+.guess__form-label {
+    margin-bottom: 8px;
+}
+
+.login__form-input,
+.guess__form-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login__form-button,
+.guess__form-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.newgame-button,
+.logout__button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.newgame-button:hover,
+.logout__button:hover {
+    background-color: #c0392b;
+}
+
+
+.login__form-button:hover,
+.guess__form-button:hover {
+    background-color: #0056b3;
+}
+
+.words__list-title,
+.words__input-title,
+.messages__title,
+.guess__title {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.words__list-content,
+.words__input-content {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.words__list-content:hover,
+.words__input-content:hover {
+    background-color: #f7f7f7;
+}
+
+.game-win {
+    color: #C70039
+}
+
+.game-over {
+    color: #005B41
+}
+
+.guess,
+.messages,
+.newgame,
+.logout {
+    margin-top: 30px;
+}

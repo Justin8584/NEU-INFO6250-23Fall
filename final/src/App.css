@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #82c0ff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login,
+.logout {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.post-author,
+.post-content {
+  margin-bottom: 10px;
+}
+
+.comments {
+  background-color: #eef2f7;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list__item {
+  margin-bottom: 10px;
+}
+
+.add-post__form {
+  margin-top: 20px;
+}
+
+.add-post__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.likes {
+  margin-top: 10px;
+}
+
+.status {
+  color: red;
+  margin-bottom: 20px;
+}

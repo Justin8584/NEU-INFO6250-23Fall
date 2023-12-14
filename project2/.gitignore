@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+
+node_modules
+package-lock.json
+public/index.js
+public/index.js.map
+README.md

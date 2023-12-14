@@ -1,0 +1,13 @@
+.anmial__menu {
+    list-style-type: "\1F431";
+}
+
+.anmial__menu-item {
+    padding: 1rem;
+    border: dashed 1px blue;
+    background-color: lightpink;
+}
+
+.anmial__menu-link {
+    color: black;
+}
